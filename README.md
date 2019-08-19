@@ -7,5 +7,5 @@ Key differences:
 
 * Line number and sign columns match background
 * Status line has darker text
-* Search is a slightly less bright
+* Search is slightly less bright
 * Brighter comments

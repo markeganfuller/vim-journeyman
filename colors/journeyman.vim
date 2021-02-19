@@ -16,7 +16,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
 
     set background=dark
 
-    hi NonText ctermbg=NONE ctermfg=240 cterm=NONE guibg=NONE guifg=#585858 gui=NONE
+    hi NonText ctermbg=NONE ctermfg=103 cterm=NONE guibg=NONE guifg=#8787af gui=NONE
     hi EndOfBuffer ctermbg=NONE ctermfg=240 cterm=NONE guibg=NONE guifg=#585858 gui=NONE
     hi LineNr ctermbg=NONE ctermfg=242 cterm=NONE guibg=NONE guifg=#6c6c6c gui=NONE
     hi FoldColumn ctermbg=234 ctermfg=242 cterm=NONE guibg=#1c1c1c guifg=#6c6c6c gui=NONE
@@ -65,7 +65,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi VertSplit ctermbg=238 ctermfg=238 cterm=NONE guibg=#444444 guifg=#444444 gui=NONE
     hi WildMenu ctermbg=110 ctermfg=235 cterm=NONE guibg=#8fafd7 guifg=#262626 gui=NONE
     hi Function ctermbg=NONE ctermfg=229 cterm=NONE guibg=NONE guifg=#ffffaf gui=NONE
-    hi SpecialKey ctermbg=NONE ctermfg=240 cterm=NONE guibg=NONE guifg=#585858 gui=NONE
+    hi SpecialKey ctermbg=NONE ctermfg=103 cterm=NONE guibg=NONE guifg=#8787af gui=NONE
     hi Title ctermbg=NONE ctermfg=231 cterm=NONE guibg=NONE guifg=#ffffff gui=NONE
     hi DiffAdd ctermbg=235 ctermfg=108 cterm=reverse guibg=#262626 guifg=#87af87 gui=reverse
     hi DiffChange ctermbg=235 ctermfg=103 cterm=reverse guibg=#262626 guifg=#8787af gui=reverse
@@ -89,7 +89,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
 
     set background=dark
 
-    hi NonText ctermbg=NONE ctermfg=darkgrey cterm=NONE
+    hi NonText ctermbg=NONE ctermfg=magenta cterm=NONE
     hi EndOfBuffer ctermbg=NONE ctermfg=darkgrey cterm=NONE
     hi LineNr ctermbg=NONE ctermfg=lightgrey cterm=NONE
     hi FoldColumn ctermbg=black ctermfg=lightgrey cterm=NONE
@@ -138,7 +138,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi VertSplit ctermbg=darkgrey ctermfg=darkgrey cterm=NONE
     hi WildMenu ctermbg=blue ctermfg=black cterm=NONE
     hi Function ctermbg=NONE ctermfg=yellow cterm=NONE
-    hi SpecialKey ctermbg=NONE ctermfg=darkgrey cterm=NONE
+    hi SpecialKey ctermbg=NONE ctermfg=magenta cterm=NONE
     hi Title ctermbg=NONE ctermfg=white cterm=NONE
     hi DiffAdd ctermbg=black ctermfg=green cterm=reverse
     hi DiffChange ctermbg=black ctermfg=magenta cterm=reverse

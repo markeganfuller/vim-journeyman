@@ -57,7 +57,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi helpLeadBlank ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi helpNormal ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi StatusLine ctermbg=101 ctermfg=234 cterm=NONE guibg=#87875f guifg=#1c1c1c gui=NONE
-    hi StatusLineNC ctermbg=238 ctermfg=234 cterm=NONE guibg=#444444 guifg=#1c1c1c gui=NONE
+    hi StatusLineNC ctermbg=234 ctermfg=101 cterm=NONE guibg=#1c1c1c guifg=#87875f gui=NONE
     hi StatusLineTerm ctermbg=101 ctermfg=235 cterm=NONE guibg=#87875f guifg=#262626 gui=NONE
     hi StatusLineTermNC ctermbg=238 ctermfg=101 cterm=NONE guibg=#444444 guifg=#87875f gui=NONE
     hi Visual ctermbg=235 ctermfg=110 cterm=reverse guibg=#262626 guifg=#8fafd7 gui=reverse
@@ -130,7 +130,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi helpLeadBlank ctermbg=NONE ctermfg=NONE cterm=NONE
     hi helpNormal ctermbg=NONE ctermfg=NONE cterm=NONE
     hi StatusLine ctermbg=darkyellow ctermfg=black cterm=NONE
-    hi StatusLineNC ctermbg=darkgrey ctermfg=black cterm=NONE
+    hi StatusLineNC ctermbg=black ctermfg=darkyellow cterm=NONE
     hi StatusLineTerm ctermbg=darkyellow ctermfg=black cterm=NONE
     hi StatusLineTermNC ctermbg=darkgrey ctermfg=darkyellow cterm=NONE
     hi Visual ctermbg=black ctermfg=blue cterm=reverse

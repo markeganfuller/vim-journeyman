@@ -1,5 +1,5 @@
 " journeyman.vim -- Vim color scheme.
-" Author:      Mark Egan-Fuller
+" Author:      Mark Egan-Fuller ()
 " Webpage:     https://github.com/markeganfuller/vim-journeyman
 " Description: A tweaked version of romainl's Apprentice.
 
@@ -21,7 +21,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi LineNr ctermbg=NONE ctermfg=242 cterm=NONE guibg=NONE guifg=#6c6c6c gui=NONE
     hi FoldColumn ctermbg=234 ctermfg=242 cterm=NONE guibg=#1c1c1c guifg=#6c6c6c gui=NONE
     hi Folded ctermbg=234 ctermfg=242 cterm=NONE guibg=#1c1c1c guifg=#6c6c6c gui=NONE
-    hi MatchParen ctermbg=234 ctermfg=229 cterm=NONE guibg=#1c1c1c guifg=#ffffaf gui=NONE
+    hi MatchParen ctermbg=13 ctermfg=234 cterm=NONE guibg=#ff00ff guifg=#1c1c1c gui=NONE
     hi signColumn ctermbg=NONE ctermfg=242 cterm=NONE guibg=NONE guifg=#6c6c6c gui=NONE
     hi Comment ctermbg=NONE ctermfg=242 cterm=NONE guibg=NONE guifg=#6c6c6c gui=NONE
     hi Conceal ctermbg=NONE ctermfg=250 cterm=NONE guibg=NONE guifg=#bcbcbc gui=NONE
@@ -94,7 +94,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi LineNr ctermbg=NONE ctermfg=lightgrey cterm=NONE
     hi FoldColumn ctermbg=black ctermfg=lightgrey cterm=NONE
     hi Folded ctermbg=black ctermfg=lightgrey cterm=NONE
-    hi MatchParen ctermbg=black ctermfg=yellow cterm=NONE
+    hi MatchParen ctermbg=magenta ctermfg=black cterm=NONE
     hi signColumn ctermbg=NONE ctermfg=lightgrey cterm=NONE
     hi Comment ctermbg=NONE ctermfg=lightgrey cterm=NONE
     hi Conceal ctermbg=NONE ctermfg=lightgrey cterm=NONE
